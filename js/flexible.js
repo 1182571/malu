@@ -5,4 +5,4 @@ var vw = document.documentElement.clientWidth;
 //  document.documentElement.style.fontSize=(16/1920)*vw+"px";
 
 // document.documentElement.style.fontSize意思为获取html当前的font-size的字体大小并更改
-document.documentElement.style.fontSize = (16 / 375) * vw + 'px';
+document.documentElement.style.fontSize = (32 / 750) * vw + 'px';
