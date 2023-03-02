@@ -1,0 +1,156 @@
+.header {
+  height: 2.625rem;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .left span {
+  font-size: .875rem;
+
+}
+
+.header .left img {
+  width: 0.6rem;
+  margin-left: .725rem;
+}
+
+/* 正在热映 */
+.header .center {
+  font-size: .875rem;
+}
+
+.header .center .active {
+  color: red;
+  margin-right: 1.25rem;
+}
+
+
+
+.header .searce img {
+  width: 1rem;
+}
+
+/* title */
+.title {
+  display: flex;
+  height: 1.875rem;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+  background-color: #464545;
+  font-size: .875rem;
+}
+
+.title .time img {
+  width: 1rem;
+  margin-left: .3125rem;
+}
+
+.title .Today .red {
+  color: red;
+}
+
+.title .Today img {
+  width: .4125rem;
+  margin-right: .3125rem;
+}
+
+/* 电影列表 */
+.itemlist {
+  background-color: black;
+}
+
+.itemlist .item:last-child {
+  padding-bottom: 5.25rem;
+}
+
+.itemlist .item {
+  display: flex;
+  margin-top: .625rem;
+  justify-content: space-between;
+}
+
+.itemlist .item .img {
+  width: 24vw;
+  height: 7.6875rem;
+}
+
+.itemlist .introduce {
+  position: absolute;
+  left: 30%;
+}
+
+.itemlist .introduce h4 {
+  font-size: .875rem;
+  color: #fff;
+}
+
+.itemlist .introduce .direct,
+.leading {
+  font-size: .65rem;
+  color: #808080;
+
+}
+
+.itemlist .introduce .direct,
+.leading span {
+  margin: .3125rem 0;
+  margin-right: .425rem;
+}
+
+.itemlist .introduce .classred {
+  display: flex;
+}
+
+.itemlist .introduce .classred {
+  margin: .3125rem 0;
+}
+
+.itemlist .introduce .classred p {
+  font-size: .75rem;
+  padding: 0 .3125rem;
+  color: #fff;
+  background-color: red;
+  border-radius: .325rem;
+  margin-left: .4125rem;
+}
+
+.itemlist .introduce .classred p:nth-child(1) {
+  margin-left: 0rem;
+}
+
+/* 评分 */
+
+.itemlist .introduce .grade img {
+  width: .625rem;
+}
+
+.itemlist .introduce .grade span {
+  font-size: .4125rem;
+  color: red;
+}
+
+/* 上映时间 */
+.itemlist .introduce .Release_time {
+  color: #808080;
+  font-size: .4125rem;
+}
+
+.itemlist .item .Ticket_purchase {
+  align-self: flex-end;
+  background-color: green;
+  border-radius: .3125rem;
+  width: 3rem;
+  text-align: center;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  margin-right: 1.25rem;
+}

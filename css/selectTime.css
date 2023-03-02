@@ -1,0 +1,141 @@
+.header img {
+  width: 0.7rem;
+  margin-right: .625rem;
+}
+
+.header {
+  height: 2.8125rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  border-bottom: 1px solid #302e2e;
+}
+
+/* cinema-nav */
+.cinema-nav {
+  height: 2.375rem;
+  overflow: auto;
+  color: #fff;
+  font-size: 3.7vw;
+}
+
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.date-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 143vw;
+  overflow: auto;
+}
+
+.date-nav p {
+  width: 21.3vw;
+  height: 10vw;
+  line-height: 10vw;
+  text-align: center;
+  margin-right: .3125rem;
+}
+
+.date-nav .active {
+  color: red;
+  border-bottom: .1875rem solid red;
+}
+
+/* 区域 */
+.rea {
+  height: 1.875rem;
+  background-color: #464545;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  font-size: .875rem;
+}
+
+.rea img {
+  vertical-align: middle;
+  width: 1.7vw;
+  height: 1.2vw;
+  margin-left: 0.25rem;
+}
+
+.itembottom {}
+
+.itembottom .cinema-name p {
+  font-size: 1rem;
+}
+
+.color-left {
+  display: flex;
+}
+
+.color {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-main {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.time-list {
+  width: 5.625rem;
+  height: 3.125rem;
+  border-radius: .3125rem;
+  background-color: #404040;
+  position: relative;
+  padding-left: 1.875rem;
+  margin-top: 2.7vw;
+  margin-right: 2.7vw;
+  text-align: center;
+}
+
+.time-list p:nth-child(1) {
+  position: absolute;
+  width: 4vw;
+  top: 1.3vw;
+  left: 2vw;
+  line-height: 1.2;
+  writing-mode: vertical-rl;
+  font-size: .625rem;
+  color: #b3b3b3;
+}
+
+.time-list p:nth-child(2) {
+  font-size: .9375rem;
+}
+
+.time-list p:nth-child(3) {
+  color: #b3b3b3;
+}
+
+.time-list p:nth-child(4) {
+  color: #eca805;
+}
+
+
+.time-list p {
+  font-size: .7125rem;
+}
+
+.fle {
+  display: flex;
+  width: 135vw;
+}
+
+.cinema-name {
+  margin-top: 1.25rem;
+
+}
+
+.magin {
+  padding-bottom: 6.25rem;
+}
+
+.fle a {
+  color: #fff;
+}

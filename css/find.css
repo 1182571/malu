@@ -1,0 +1,64 @@
+.container {
+  width: 100vw;
+}
+
+.video-content {
+  width: 100vw;
+}
+
+.video-content .video {
+  width: 100vw;
+}
+
+.video-content .video span {
+  position: absolute;
+  color: #fff;
+  font-size: .9375rem;
+  margin: .625rem;
+  font-weight: 400;
+
+}
+
+.video-content .video video {
+  width: 100vw;
+}
+
+.title {
+  background-color: #454343;
+}
+
+.title .titlecon {
+  display: flex;
+  font-size: .875rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5rem;
+  color: #fff;
+
+}
+
+
+.title .titlecon img {
+  width: 1.5625rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.title .titlecon .like img {
+  width: 1.1rem;
+  vertical-align: middle;
+}
+
+.title .titlecon .share img {
+  width: 1.1rem;
+  vertical-align: middle;
+}
+
+.title .titlecon .comment img {
+  width: 1.1rem;
+  vertical-align: middle;
+}
+
+.container .video-content:last-child {
+  padding-bottom: 5.25rem;
+}

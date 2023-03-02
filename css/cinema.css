@@ -1,0 +1,60 @@
+.header {
+  height: 2.625rem;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .left span {
+  font-size: .875rem;
+
+}
+
+.header .left img {
+  width: 0.6rem;
+  margin-left: .725rem;
+}
+
+/* 正在热映 */
+.header .center {
+  font-size: 1rem;
+}
+
+.header .center .active {
+  color: red;
+  margin-right: 1.25rem;
+}
+
+
+
+.header .searce img {
+  width: 1rem;
+}
+
+/* title */
+.title {
+  height: 1.875rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #464545;
+  color: #fff;
+  font-size: .875rem;
+  margin-bottom: .625rem;
+}
+
+.title .item img {
+  width: .625rem;
+  vertical-align: middle
+}
+
+.list {
+  padding-bottom: 5.25rem;
+}

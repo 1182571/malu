@@ -1,0 +1,205 @@
+.container {
+  width: calc(100% - 5.3vw);
+  height: 2.8125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: .625rem;
+}
+
+.container div span {
+  color: #fff;
+}
+
+.container img {
+  width: .5rem;
+  margin-right: .3125rem;
+  vertical-align: middle;
+}
+
+.container .news {
+  display: flex;
+  align-items: center;
+  width: 13.3vw;
+}
+
+.container .news p img {
+  width: 4vw;
+  height: 4.3vw;
+  vertical-align: middle;
+  margin-right: .625rem;
+}
+
+.container .more-icon {
+  width: 5.6vw;
+  height: 1.3vw;
+  margin-left: 1.3vw;
+}
+
+/* 灰色内容区域 */
+.bg-main {
+  height: 100%;
+  background-color: #343232;
+  color: #fff;
+}
+
+.movie-infos {
+  padding-left: 9.3vw;
+  padding-top: 5.3vw;
+  padding-bottom: 5.3vw;
+  border-bottom: 1px solid black;
+}
+
+.movie-infos>p {
+  font-size: 1;
+}
+
+.star_icon {
+  display: flex;
+  margin: .625rem 0;
+
+}
+
+.star_icon img {
+  width: 0.9rem;
+  height: 0.9rem;
+  vertical-align: middle;
+
+}
+
+.star_icon span {
+  color: red;
+  font-size: .8125rem;
+  margin-left: 0.3rem;
+}
+
+.seatTime {
+  display: flex;
+  font-size: 13px;
+  color: #b3b3b3
+}
+
+.mr-12 {
+  margin-right: .625rem;
+}
+
+
+/* 已选座位区域 */
+.seatcon {
+  width: 66.7vw;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.seatcon .seat {
+  display: flex;
+  padding: 1.225rem 0;
+}
+
+.seatcon .seat img {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin-right: .3125rem;
+}
+
+.seatcon .seat span {
+  font-size: .8125rem;
+}
+
+/* 荧光屏 */
+.screen {
+  width: 80vw;
+  margin: 0 auto;
+  border-top: 2px solid green;
+}
+
+.screen p {
+  background-color: green;
+  width: 53.3vw;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 3.7vw;
+  padding: 1.1vw 0;
+}
+
+/* 座位 */
+.seat-icon {
+  width: 6.3vw;
+  height: 5.6vw;
+}
+
+.seat-list {
+  margin: 0 1.5625rem;
+}
+
+.seat-th {
+  display: flex;
+  justify-content: space-around;
+  margin-top: .325rem;
+}
+
+/* 已选座位 */
+.is-select {
+  display: flex;
+  margin-top: 1.25rem;
+  margin-left: 1.5625rem;
+}
+
+.selectList {
+  margin-left: .625rem;
+  background-color: #494747;
+  width: 24vw;
+  height: 10vw;
+  background-color: #494747;
+  position: relative;
+  text-align: center;
+}
+
+.selectList p:nth-child(1) {
+  border-bottom-left-radius: 1.1875rem;
+}
+
+.selectList img {
+  width: 2.1vw;
+  height: 2.1vw;
+  position: absolute;
+  right: 2vw;
+  top: 4vw;
+}
+
+.selectList p {
+  font-size: .8125rem;
+  color: #b3b3b3;
+}
+
+.red {
+  color: red !important;
+}
+
+.recycle {
+  width: 2.7vw;
+  height: 2.7vw;
+  background-color: #343232;
+  position: absolute;
+  top: 50%;
+  left: -3px;
+  transform: translateY(-50%);
+  border-radius: 20px;
+}
+
+.button {
+  width: 15.625rem;
+  height: 2.5rem;
+  margin: 30px auto;
+  background-color: red;
+  border-radius: 1.25rem;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.button a {
+  color: #fff;
+}

@@ -1,0 +1,141 @@
+/* 最顶部 */
+.headerTop {
+  width: calc(100% - 5.3vw);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11.3vw;
+}
+
+.headerTop .left {
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.headerTop .left img {
+  width: .7rem;
+  margin-left: .3125rem;
+}
+
+/* 中间搜索框 */
+.headerTop .center {
+  background-color: #444242;
+  border-radius: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-grow: 1;
+  margin: 0 1.0625rem;
+  align-items: center;
+
+}
+
+.headerTop .center img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: .625rem;
+}
+
+.headerTop .center input {
+  margin-left: .625rem;
+  color: grey;
+  font-size: .9375rem;
+}
+
+/* 扫一扫 */
+.headerTop .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerTop .right img {
+  width: 1.25rem;
+}
+
+/* banner */
+.banner {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  width: 22.1875rem;
+  border-radius: 1.25rem;
+  height: 7.5rem;
+
+}
+
+/* title */
+.title {
+  width: 14.375rem;
+  height: 4.0625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #e7ffe7;
+}
+
+.title .active {
+  color: red;
+}
+
+
+/* 电影列表 */
+.swiper-wrapper {
+  width: 22.25rem;
+  height: 11.875rem;
+}
+
+.swiper {
+  overflow: auto;
+}
+
+.swiper-slide {
+  width: 6.8rem !important;
+  height: 8.4375rem !important;
+  margin-right: 1rem !important;
+}
+
+.swiper-slide img {
+  width: 7rem;
+  height: 8.4375rem;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide p {
+  font-size: .875rem;
+  color: #fff;
+}
+
+.swiper-slide span {
+  font-size: .35rem;
+  color: grey;
+}
+
+/* 查看更多 */
+.more {
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.more p {
+  color: #fff;
+  font-size: .8125rem;
+}
+
+.list {
+  padding-bottom: 5.4rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

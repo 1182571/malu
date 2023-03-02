@@ -1,0 +1,205 @@
+.container {
+  width: calc(100% - 5.3vw);
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: .625rem;
+}
+
+.container div span {
+  color: #fff;
+}
+
+.container img {
+  width: .5rem;
+  margin-right: .3125rem;
+  vertical-align: middle;
+}
+
+.container .news {
+  display: flex;
+  align-items: center;
+  width: 13.3vw;
+}
+
+.container .news p img {
+  width: 4vw;
+  height: 4.3vw;
+  vertical-align: middle;
+  margin-right: .625rem;
+}
+
+.container .more-icon {
+  width: 5.6vw;
+  height: 1.3vw;
+  margin-left: 1.3vw;
+}
+
+/* shipin */
+.video {
+  width: 100vw;
+}
+
+.video span {
+  position: absolute;
+  color: #fff;
+  font-size: .9375rem;
+  margin: .625rem;
+  font-weight: 400;
+
+}
+
+.video video {
+  width: 100vw;
+}
+
+/* title */
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.title .titleLeft .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title .titleLeft h3 {
+  font-size: 1.1625rem;
+  margin-bottom: .3125rem;
+}
+
+
+
+.title .titleLeft span {
+  color: #808080;
+  font-size: .1125rem;
+}
+
+.title .titleRight .red {
+  color: red;
+}
+
+.title .titleRight span {
+  font-size: .8125rem;
+  color: #808080;
+}
+
+.title .titleRight .star img {
+
+  width: 0.8rem;
+}
+
+.title .titleRight .star {
+  margin-top: .3125rem;
+}
+
+/* 想看 */
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: .3125rem;
+}
+
+.btn .WantSee,
+.See {
+  color: #fff;
+  background-color: #464545;
+  border-radius: 1.25rem;
+  padding: .525rem 2.25rem;
+}
+
+.btn .WantSee img {
+  vertical-align: middle;
+  width: 1rem;
+}
+
+.btn .See img {
+  vertical-align: middle;
+  width: 1rem;
+}
+
+/* 电影介绍 */
+.detail {
+  margin-top: .625rem;
+  display: flex;
+}
+
+.detail .detailed p {
+  margin: .2125rem .625rem;
+}
+
+.detail img {
+  width: 5rem;
+  height: 6.25rem;
+}
+
+.detail p {
+  color: #808080;
+  font-size: .6125rem;
+
+}
+
+/* 剧情介绍 */
+.Introduction {
+  color: #fff;
+  margin: .5rem auto;
+}
+
+.Introduction p {
+  text-indent: 2rem;
+  font-size: .875rem;
+  color: #808080;
+}
+
+/* 演员列表 */
+.ActorList {
+  color: #fff;
+
+}
+
+.ActorList .item {
+  margin-bottom: 0.8rem;
+}
+
+.swiper-slide img {
+  width: 6.3125rem;
+  height: 7.5rem;
+}
+
+.movie-detail-content {
+  padding-bottom: 6.25rem;
+}
+
+.swiper-slide {
+  color: #808080;
+  font-size: .75rem;
+}
+
+.swiper-slide p {
+  margin-top: .325rem;
+}
+
+/* 特惠选票 */
+.foocheck {
+  width: 100%;
+  height: 2.1875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  background-color: green;
+
+}
+
+.foocheck a {
+  color: #fff;
+}

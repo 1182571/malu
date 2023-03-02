@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/child-detail.css" />
+    <link rel="stylesheet" href="../swiper/swiper.min.css" />
+  </head>
+  <body>
+    <div class="movie-detail-content">
+      <!-- 头部 -->
+      <div class="container">
+        <div>
+          <img src="../images/icon/back_icon.png" alt="" />
+          <span>电影院</span>
+        </div>
+        <div class="news">
+          <p>
+            <img src="../images/icon/share_icon2.png" alt="" />
+          </p>
+          <img class="more-icon" src="../images/icon/more_icon.png" alt="" />
+        </div>
+      </div>
+      <!-- 视频 -->
+      <div class="video">
+        <video src="../images/video/source_1.mp4" controls></video>
+      </div>
+      <!-- title -->
+      <div class="title w">
+        <div class="titleLeft">
+          <h3>假面饭店</h3>
+          <div class="list">
+            <span>120分钟</span>
+            <span>悬疑</span>
+            <span>上映时间 :2020-08-30</span>
+          </div>
+        </div>
+        <div class="titleRight">
+          <div class="star">
+            <img src="../images/icon/star_icon.png" alt="" />
+            <img src="../images/icon/star_icon.png" alt="" />
+            <img src="../images/icon/star_icon.png" alt="" />
+            <img src="../images/icon/star_icon.png" alt="" />
+            <img src="../images/icon/star_icon.png" alt="" />
+            <span class="red">评分9.0</span>
+          </div>
+          <span> 10万人参与评论 </span>
+        </div>
+      </div>
+      <!-- 想看看过 -->
+      <div class="btn">
+        <div class="WantSee">
+          <img src="../images/icon/like_icon.png" alt="" />
+          <span>想看</span>
+        </div>
+        <div class="See">
+          <img src="../images/icon/collect_icon.png" alt="" />
+          <span>想看</span>
+        </div>
+      </div>
+      <!-- 电影介绍 -->
+      <div class="detail w">
+        <img src="../images/img/movie_6.jpg" alt="" />
+        <div class="detailed">
+          <p>导演： 铃木雅之</p>
+          <p>主演：木村拓哉 长泽雅美 前田敦子</p>
+          <p>类型：悬疑</p>
+          <p>屏幕：2D</p>
+          <p>片场：120分钟</p>
+        </div>
+      </div>
+      <!-- 剧情介绍 -->
+      <div class="Introduction w">
+        <span>剧情介绍：</span>
+        <p>
+          东京都内发生了三起杀人事件。
+          警方从所有案发现场都遗留有的无法解释的数列推断出这是一系列带有预告信息的连环杀人案，并就此展开了侦查。
+          警视厅搜查一课的精英刑警新田浩介（木村拓哉饰）破译出该数字预示着下一次作案的场所，他由此推测东京柯尔特西亚酒店将会成为第4起命案现场。
+          然而凶手是谁却毫无线索。警方因此决定潜入东京柯尔特西亚进行调查，新田则要扮作前台人员追查凶手。
+          受命指导他的是东京柯尔特西亚的优秀前台员工山岸尚美（长泽雅美饰）。
+        </p>
+      </div>
+      <!-- 演员列表 -->
+      <div class="ActorList w">
+        <p class="item">演员列表：</p>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../images/img/avatar_1.jpeg" alt="" />
+              <p>木村拓哉</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/img/avatar_2.jpeg" alt="" />
+              <p>长泽雅美</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/img/avatar_3.jpeg" alt="" />
+              <p>周杰伦</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/img/avatar_4.jpeg" alt="" />
+              <p>前田敦子</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/img/avatar_4.jpeg" alt="" />
+              <p>小日向文世</p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- 底部选票 -->
+      <div class="foocheck">
+        <a href="./selectTime.html">
+          <p>特惠选票</p>
+        </a>
+      </div>
+    </div>
+    <script src="../swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        }
+      });
+    </script>
+  </body>
+</html>
